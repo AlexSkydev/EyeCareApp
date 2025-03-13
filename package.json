@@ -1,0 +1,28 @@
+{
+  "name": "eyecare",
+  "version": "0.1.0",
+  "description": "-",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "electron .",
+    "pack": "electron-packager . EyeCareApp --platform=win32 --arch=x64 --out=dist/ --asar=false --icon=icon.ico"
+  },
+  "repository": {
+    "type": "git",
+    "url": "-"
+  },
+  "keywords": [
+    "-"
+  ],
+  "author": "val1k",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "electron": "^35.0.1",
+    "electron-packager": "^17.1.2"
+  }
+}

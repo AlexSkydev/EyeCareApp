@@ -1,0 +1,1 @@
+npx electron-packager . EyeCareApp --platform=win32 --arch=x64 --out=dist/
